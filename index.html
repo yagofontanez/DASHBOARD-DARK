@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashdark X</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <!--Div do container completo-->
+    <div class="container-dashboard">
+        <!--Div da barra lateral-->
+        <div class="navbar-dashboard">
+            <div class="logotipo">
+                <div class="logo">
+                    <img src="assets/logo.svg">
+                </div>
+                <div class="tres-pontos">
+                    <i class='bx bx-code'></i>
+                </div>
+            </div>
+            <div class="button-searchbar">
+                <label for="search" id="button-btn-searchbar">
+                    <i class='bx bx-search' ></i>
+                    <input type="text" name="" placeholder="Search For...">
+                </label>
+            </div>
+            <div class="navbar">
+                <div id="change-color" class="dashboard-navbar">
+                    <div class="icon-dash">
+                        <i id="change-color-dash" class='bx bx-home-alt-2' ></i>
+                        <p class="change-color-class" id="change-color-dash">Dashboard</p>
+                    </div>
+                    <div class="arrow-1">
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                </div>
+                <div id="change-color-feature" class="features-navbar">
+                    <div class="icon-features">
+                        <i id="change-color-features" class='bx bxs-zap'></i>
+                        <p id="change-color-features">Features</p>
+                    </div>
+                    <div class="arrow-2">
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                </div>
+                <div id="change-color-user" class="users-navbar">
+                    <div class="icon-users">
+                        <i id="change-color-users" class='bx bxs-user' ></i>
+                        <p id="change-color-users">Users</p>
+                    </div>
+                    <div class="arrow-3">
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                </div>
+                <div id="pricing-navbar" class="pricing-navbar">
+                    <div class="icon-pricing">
+                        <i class='bx bxs-purchase-tag' ></i>
+                        <p class="change-color-pricing" id="preco-navbar">Pricing</p>
+                    </div>
+                    <div class="arrow-4">
+                        <i id="arrow-right" class='bx bx-chevron-right'></i>
+                        <i id="arrow-down" class='bx bx-chevron-down' ></i>
+                    </div>
+                </div>
+                <div id="display-none" class="listas-prices">
+                    <div class="container-p"><p>All prices</p></div>
+                    <div class="container-p"><p>Pricing V1</p></div>
+                    <div class="container-p"><p>Pricing V2</p></div>
+                    <div class="container-p"><p>Pricing V3</p></div>
+                </div>
+            </div>
+            <hr class="hr-um">
+            <div class="settings">
+                <div id="change-color-setting" class="settings-navbar">
+                    <div class="icon-settings">
+                        <i id="change-color-settings" class='bx bxs-cog' ></i>
+                        <p id="change-color-settings">Settings</p>
+                    </div>
+                    <div class="arrow-5">
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                </div>
+                <div id="change-color-template" class="template-pages-navbar">
+                    <div class="icon-templates">
+                        <i id="change-color-templates" class='bx bxl-html5' ></i>
+                        <p id="change-color-templates">Template pages</p>
+                    </div>
+                    <div class="arrow-6">
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                </div>
+                <div class="name-and-icon-navbar">
+                    <div class="align">
+                        <div class="foto">
+                            <img src="assets/image-icon.jpg">
+                        </div>
+                        <div class="name-and-description">
+                            <p id="john-carter">John Carter</p>
+                            <p id="description">Account Settings</p>
+                        </div>
+                    </div>
+                    <div class="arrow-7">
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                </div>
+            </div>
+            <div class="button-get-template">
+                <button>Get template <i class='bx bx-right-arrow-alt' ></i></button>
+            </div>
+        </div>
+        <hr id="hr-lado" class="hr-lado">
+        <!--Div do content pricing-->
+        <div id="main-content-dashboard" class="main-content-dashboard">
+            <div class="parte-um">
+                <div class="container-parte-um">
+                    <div class="pricing-e-descricao">
+                        <h1>Pricing</h1>
+                        <h4>Dignissim pellentesque eu habitasse quis viverra felis.</h4>
+                    </div>
+                    <div class="buttons-parte-um">
+                        <button id="button-um">Monthly billing</button>
+                        <button id="button-dois">Anually billing</button>
+                    </div>
+                </div>
+            </div>
+            <div class="parte-dois">
+                <div class="column-um">
+                    <p>Pick a plan</p>
+                </div>
+                <hr id="hr-parte-dois">
+                <div id="change-color-background" class="column-dois">
+                    <div class="parte-cima-column-dois">
+                        <img id="triangle-image" src="assets/triangle.svg">
+                        <div class="textos-column-dois">
+                            <p>Startup</p>
+                            <h2 id="preco-plano-um">$199 UDS <span class="price-month" id="change-color-span">/year</span></h2>
+                        </div>
+                    </div>
+                    <div class="parte-baixo-column-dois">
+                        <button id="plan-startup">Select Plan <i class='bx bx-right-arrow-alt' ></i></button>
+                    </div>
+                </div>
+                <hr id="hr-parte-dois">
+                <div id="blue-column" class="column-tres">
+                    <div class="parte-cima-column-dois">
+                        <img src="assets/quadrado.svg">
+                        <div class="textos-column-dois">
+                            <p>Corporate</p>
+                            <h2 id="preco-plano-dois">$299 UDS <span class="price-month" id="change-color-span-dois">/year</span></h2>
+                        </div>
+                    </div>
+                    <div class="parte-baixo-column-dois">
+                        <button id="plan-corporate">Select Plan <i class='bx bx-right-arrow-alt' ></i></button>
+                    </div>
+                </div>
+                <hr id="hr-parte-dois">
+                <div id="change-color-background-dois" class="column-quatro">
+                    <div class="parte-cima-column-dois">
+                        <img id="hexa-image" src="assets/hexagono.svg">
+                        <div class="textos-column-dois">
+                            <p>Enterprise</p>
+                            <h2 id="preco-plano-tres">$399 UDS <span class="price-month" id="change-color-span-tres">/year</span></h2>
+                        </div>
+                    </div>
+                    <div class="parte-baixo-column-dois">
+                        <button id="plan-enterprise">Select Plan <i class='bx bx-right-arrow-alt' ></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="parte-tres">
+                <div class="row-um-parte-tres">
+                    <h2>Features</h2>
+                </div>
+                <div class="row-dois-parte-tres">
+                    <p class="name-feature">Number of users</p>
+                    <hr id="vtnc">
+                    <p class="mover-plmds" id="mover-plmds">1 user</p>
+                    <hr id="h2-mover">
+                    <p class="bgd-azul" id="mover-plmds-dois">5 users</p>
+                    <hr id="vsf">
+                    <p id="mover-meudeus">Unlimited</p>
+                </div>
+                <div class="row-tres-parte-tres">
+                    <p class="name-feature">Credits</p>
+                    <hr id="vtnc">
+                    <p class="mover-plmds" id="mover-plmds">500</p>
+                    <hr id="h2-mover">
+                    <p id="mover-plmds-dois">1,500</p>
+                    <hr id="vsf">
+                    <p id="mover-meudeus">5,000</p>
+                </div>
+                <div class="row-quatro-parte-tres">
+                    <p class="name-feature">Individual user analytics</p>
+                    <hr id="vtnc">
+                    <p class="mover-plmds" id="mover-plmds"><i class='bx bx-check-circle'></i></p>
+                    <hr id="h2-mover">
+                    <p id="mover-plmds-dois"><i class='bx bx-check-circle'></i></p>
+                    <hr id="vsf">
+                    <p id="mover-meudeus"><i class='bx bx-check-circle'></i></p>
+                </div>
+                <div class="row-cinco-parte-tres">
+                    <p class="name-feature">Behavior analytics</p>
+                    <hr id="vtnc">
+                    <p class="mover-plmds" id="mover-plmds"><i class='bx bx-check-circle'></i></p>
+                    <hr id="h2-mover">
+                    <p id="mover-plmds-dois"><i class='bx bx-check-circle'></i></p>
+                    <hr id="vsf">
+                    <p id="mover-meudeus"><i class='bx bx-check-circle'></i></p>
+                </div>
+                <div class="row-seis-parte-tres">
+                    <p class="name-feature">Daily reports</p>
+                    <hr id="vtnc">
+                    <p class="mover-plmds" id="mover-plmds"><i class='bx bx-check-circle'></i></p>
+                    <hr id="h2-mover">
+                    <p id="mover-plmds-dois"><i class='bx bx-check-circle'></i></p>
+                    <hr id="vsf">
+                    <p id="mover-meudeus"><i class='bx bx-check-circle'></i></p>
+                </div>
+                <div class="row-sete-parte-tres">
+                    <p class="name-feature">Weekly reports</p>
+                    <hr id="vtnc">
+                    <p id="forte" class="remove-forte">REMOVER ISSO</p>
+                    <hr id="h2-mover">
+                    <p id="mover-plmds-dois"><i class='bx bx-check-circle'></i></p>
+                    <hr id="vsf">
+                    <p id="mover-meudeus"><i class='bx bx-check-circle'></i></p>
+                </div>
+                <div class="row-oito-parte-tres">
+                    <p class="name-feature">Monthly reports</p>
+                    <hr id="vtnc">
+                    <p id="fraco" class="remove-fraco">REMOVER ISSO</p>
+                    <hr id="h2-mover">
+                    <p id="mover-plmds-dois"><i class='bx bx-check-circle'></i></p>
+                    <hr id="vsf">
+                    <p id="mover-meudeus"><i class='bx bx-check-circle'></i></p>
+                </div>
+                <div class="row-nove-parte-tres">
+                    <p class="name-feature">Custom reports</p>
+                    <hr id="vtnc">
+                    <p id="forte" class="remove-forte">REMOVER ISSO</p>
+                    <hr id="h2-mover">
+                    <p id="mover-plmds-dois"><i class='bx bx-check-circle'></i></p>
+                    <hr id="vsf">
+                    <p id="mover-meudeus"><i class='bx bx-check-circle'></i></p>
+                </div>
+                <div class="row-dez-parte-tres">
+                    <p>Custom training</p>
+                    <hr id="vtnc">
+                    <p id="fraco" class="remove-fraco">REMOVER ISSO</p>
+                    <hr id="h2-mover">
+                    <p id="fraco" class="remove-fraco">REMOVER ISSO</p>
+                    <hr id="vsf">
+                    <p id="mover-meudeus"><i class='bx bx-check-circle'></i></p>
+                </div>
+            </div>
+        </div>
+        <!--Div content dashboard-->
+        <div id="dashboard-content" class="dashboard-content">
+            <div class="parte-um-dashboard-content">
+                <div class="lado-esquerdo-content-dashboard">
+                    <h1>Welcome back, John</h1>
+                    <p>Measure your advertising ROI and report website traffic</p>
+                </div>
+                <div class="lado-direito-content-dashboard">
+                    <button id="export-data-button">Export data <i class='bx bx-down-arrow-alt'></i></button>
+                    <button id="create-report-button">Create report</button>
+                </div>
+            </div>
+            <div class="parte-dois-dashboard-content">
+                <div class="container-um-parte-dois-dashboard">
+                    <div class="lado-cima">
+                        <div class="alinhar-dashbrd">
+                            <i class='bx bxs-bullseye' ></i>
+                            <p>Pageviews</p>
+                        </div>
+                        <i class='bx bx-dots-horizontal-rounded' ></i>
+                    </div>
+                    <div class="lado-baixo">
+                        <h1>50.8K</h1>
+                        <h5>28.4% <i class='bx bx-up-arrow-alt' ></i></h5>
+                    </div>
+                </div>
+                <div class="container-dois-parte-dois-dashboard">
+                    <div class="lado-cima">
+                        <div class="alinhar-dashbrd">
+                            <i class='bx bx-user' ></i>
+                            <p>Monthly users</p>
+                        </div>
+                        <i class='bx bx-dots-horizontal-rounded' ></i>
+                    </div>
+                    <div class="lado-baixo">
+                        <h1>23.6K</h1>
+                        <h5 id="h5-red">12.6% <i class='bx bx-down-arrow-alt' ></i></h5>
+                    </div>
+                </div>
+                <div class="container-tres-parte-dois-dashboard">
+                    <div class="lado-cima">
+                        <div class="alinhar-dashbrd">
+                            <i class='bx bx-plus-circle' ></i>
+                            <p>New sign ups</p>
+                        </div>
+                        <i class='bx bx-dots-horizontal-rounded' ></i>
+                    </div>
+                    <div class="lado-baixo">
+                        <h1>756</h1>
+                        <h5>3.1% <i class='bx bx-up-arrow-alt' ></i></h5>
+                    </div>
+                </div>
+                <div class="container-quatro-parte-dois-dashboard">
+                    <div class="lado-cima">
+                        <div class="alinhar-dashbrd">
+                            <i class='bx bxs-star' ></i>
+                            <p>Subscriptions</p>
+                        </div>
+                        <i class='bx bx-dots-horizontal-rounded' ></i>
+                    </div>
+                    <div class="lado-baixo">
+                        <h1>2.3K</h1>
+                        <h5>11.3% <i class='bx bx-up-arrow-alt' ></i></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="parte-tres-dashboard-content">
+                <div class="lado-esquerdo-parte-tres-dashboard">
+                    <div class="row-um-parte-tres-dashboard">
+                        <div class="container-um-row-um">
+                            <p>Total revenue</p>
+                            <div class="textos-container-um-row-um">
+                                <h1>$240.K</h1>
+                                <h5>24.6% <i class='bx bx-up-arrow-alt' ></i></h5>
+                            </div>
+                        </div>
+                        <div class="container-dois-row-um">
+                            <div class="revenue">
+                                <i class="bi bi-dot"></i>
+                                <p>Revenue</p>
+                            </div>
+                            <div class="expenses">
+                                <i class="bi bi-dot"></i>
+                                <p>Expenses</p>
+                            </div>
+                            <button><i class="bi bi-calendar-event-fill"></i> Jan 2024 - Dec 2024 <i class='bx bxs-chevron-down bx-flip-vertical' ></i></button>
+                        </div>
+                    </div>
+                    <div class="row-dois-parte-tres-dashboard">
+                        <img src="assets/graphic-1.png" width="600px">
+                    </div>
+                </div>
+                <hr id="hr-meio-parte-tres-dash">
+                <div class="lado-direito-parte-tres-dashboard">
+                    <div class="parte-cima-lado-direito-parte-tres-dashboard">
+                        <div class="text-parte-cima-lado-direito-parte-tres-dashboard">
+                            <i class="bi bi-sliders2"></i>
+                            <p>Total profit</p>
+                        </div>
+                        <div class="valor-profit">
+                            <h1>$144.6K</h1>
+                            <h5>28.5% <i class='bx bx-up-arrow-alt' ></i></h5>
+                        </div>
+                        <img src="assets/graphic-2.png">
+                        <div class="text-dois-parte-cima-lado-direito-parte-tres-dashboard">
+                            <p>Last 12 months</p>
+                            <p id="blue-p">View report</p>
+                        </div>
+                    </div>
+                    <hr id="hr-meio-lado-direito-dash">
+                    <div class="parte-baixo-lado-direito-parte-tres-dashboard">
+                        <div class="total-sessions">
+                            <i class='bx bx-timer bx-flip-vertical' ></i>
+                            <p>Total sessions</p>
+                        </div>
+                        <div class="total-das-sessions">
+                            <h1>400</h1>
+                            <h5>16.8% <i class='bx bx-up-arrow-alt' ></i></h5>
+                        </div>
+                        <img src="assets/graphic-3.png">
+                        <div class="visitors">
+                            <div class="esquerda-visitors">
+                                <h5><i class="bi bi-dot"></i> Live</h5>
+                                <p>10k visitors</p>
+                            </div>
+                            <p id="blue-p-dois">View report</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="parte-quatro-dashboard-content">
+                <div class="column-um-parte-quatro-dash">
+                    <h1>Reports overview</h1>
+                </div>
+                <div class="column-dois-parte-quatro-dash">
+                    <button class="button-calendar"><i class="bi bi-calendar-event-fill"></i> Select date <i class='bx bxs-chevron-down bx-flip-vertical' ></i></button>
+                    <div class="buttons-lado-direito-column-dois-parte-quatro-dash">
+                        <button id="export-data-button">Export data <i class='bx bx-down-arrow-alt'></i></button>
+                        <button id="create-report-button">Create report</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Div content features-->
+        
+    </div>
+
+
+<script src="script.js"></script>    
+</body>
+</html>
